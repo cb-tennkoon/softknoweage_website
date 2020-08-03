@@ -1,0 +1,30 @@
+#js--wp--1{
+    opacity: 0;
+}
+#js--wp--2{
+    opacity: 0;
+}
+#js--wp--3{
+    opacity: 0;
+}
+#js--wp--4{
+    opacity: 0;
+}
+#js--wp--5{
+    opacity: 0;
+}
+#js--wp--1.animate__animated{
+    opacity: 1;
+}
+#js--wp--2.animate__animated{
+    opacity: 1;
+}
+#js--wp--3.animate__animated{
+    opacity: 1;
+}
+#js--wp--4.animate__animated{
+    opacity: 1;
+}
+#js--wp--5.animate__animated{
+    opacity: 1;
+}

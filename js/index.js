@@ -74,4 +74,32 @@ window.addEventListener('scroll', function() {
     // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
     // console.log(vw);
     // nav.classList.add("scrolled");
+    //animation
+//animation
+
+});
+$(document).ready(function(){
+    $('#js--wp--1').waypoint(function(direction) {
+
+        $('#js--wp--1').addClass('animate__backInLeft animate__slow');
+    },
+    {
+        offset: '800px'
+    });
+
+    $('#js--wp--2').waypoint(function(direction) {
+
+        $('#js--wp--2').addClass('animate__backInLeft animate__slow');
+    },
+    {
+        offset: '800px'
+    });
+
+    $('#js--wp--3').waypoint(function(direction) {
+
+        $('#js--wp--3').addClass('animate__backInRight animate__slow');
+    },
+    {
+        offset: '800px'
+    });
 });

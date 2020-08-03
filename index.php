@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet href="css/animate.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Softknowedge Business Solutions (Pvt) Ltd</title>
 </head>
@@ -38,22 +39,22 @@
             </div>
         </div>
     </nav>
-    <div class="hero-text-box">
+    <div class="hero-text-box" id="js--wp--1">
         <h1>Our target better solution for<br> Your Problem.</h1>
-        <h6 class="px-2"> ERP solution,web, Cloud, Social Media & IT Consulting</h6>
+        <h6> ERP solution,web, Cloud, Social Media & IT Consulting</h6>
     </div>
 </header>
 <!--WHO ARE WE?-->
 <section class="pb-5" style="background-color: rgba(179,179,179,0.24);padding-top: 48px">
         <div class="row clearfix">
-            <div class="col-xl">
+            <div class="col-xl" id="js--wp--2">
                 <div class="pt-4 w-space">
-                    <h1>WHO ARE WE?</h1>
+                    <h1 >WHO ARE WE?</h1>
                     <p>EFutures is a Sri Lankan full-cycle software development company with expertise in creating bespoke enterprise scale software and a focus on latest technologies. We have been assisting companies achieve their business advancement goals by providing innovative and impactful software solutions, since the year 2000.</p>
                 </div>
             </div>
-            <div class="col-xl ">
-                <figure class="meal-photo" id="meal-photo" style="background-color: black !important;">
+            <div class="col-xl " id="js--wp--3">
+                <figure class="meal-photo animate__animated animate__backInRight" id="meal-photo" style="background-color: black !important;">
                     <img src="image/w.jpg" class="img-fluid image-height bg-gradient-dark"  alt="Responsive image" height="500" style="linear-gradient(rgba(0, 0, 0, 0.567) !important;opacity: 1;">
                 </figure>
             </div>
@@ -476,6 +477,8 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="vendors/js/jquery.counterup.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 <script src="https://kit.fontawesome.com/d8d7ffc13b.js" crossorigin="anonymous"></script>
@@ -485,8 +488,6 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="vendors/js/jquery.counterup.min.js"></script>
-
 <script src="js/index.js"></script>
 </body>
 </html>
