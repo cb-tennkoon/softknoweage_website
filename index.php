@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Softknowedge Business Solutions (Pvt) Ltd</title>
 </head>
@@ -39,8 +39,8 @@
             </div>
         </div>
     </nav>
-    <div class="hero-text-box" id="js--wp--1">
-        <h1>Our target better solution for<br> Your Problem.</h1>
+    <div class="hero-text-box">
+        <h1 id="js--wp--1">Our target better solution for<br> Your Problem.</h1>
         <h6> ERP solution,web, Cloud, Social Media & IT Consulting</h6>
     </div>
 </header>
@@ -50,10 +50,13 @@
             <div class="col-xl" id="js--wp--2">
                 <div class="pt-4 w-space">
                     <h1 >WHO ARE WE?</h1>
-                    <p>EFutures is a Sri Lankan full-cycle software development company with expertise in creating bespoke enterprise scale software and a focus on latest technologies. We have been assisting companies achieve their business advancement goals by providing innovative and impactful software solutions, since the year 2000.</p>
+                    <p>Softknowedge Business Solution (PVT) Ltd specialize in the development of ERP
+solutions for manufacturing organizations and custom software applications.
+Specifically, our company carries out custom programming, database design, and
+client-server and internet/intranet software application development. </p>
                 </div>
             </div>
-            <div class="col-xl " id="js--wp--3">
+            <div class="col-xl" id="js--wp--3">
                 <figure class="meal-photo animate__animated animate__backInRight" id="meal-photo" style="background-color: black !important;">
                     <img src="image/w.jpg" class="img-fluid image-height bg-gradient-dark"  alt="Responsive image" height="500" style="linear-gradient(rgba(0, 0, 0, 0.567) !important;opacity: 1;">
                 </figure>
@@ -65,19 +68,19 @@
 <section class="pt-5  pb-5 bg-s" >
     <div>
         <div class="row">
-            <div class="col-lg SOFTWARE_DEVELOPMENT">
+            <div class="col-lg SOFTWARE_DEVELOPMENT" id="js--wp--4">
                 <img src="image/engineer.png" class="mb-2 pb-2" alt="SOFTWARE DEVELOPMENT" style="width: 15%;padding-right: auto;padding-left: auto">
                 <span class="mb-1 " style="display: block">Creating the future</span>
                 <h5>SOFTWARE DEVELOPMENT</h5>
                 <p>Create complex web and enterprise solutions to enhance the performance of your organization and cut down your operational costs.</p>
             </div>
-            <div class="col-lg SOFTWARE_DEVELOPMENT">
+            <div class="col-lg SOFTWARE_DEVELOPMENT" id="js--wp--5">
                 <img src="image/it.png" class="mb-2 pb-2" alt="SOFTWARE DEVELOPMENT" style="width: 15%;padding-right: auto;padding-left: auto">
                 <span class="mb-1 " style="display: block">Inspiring solutions</span>
                 <h5>IT CONSULTATION</h5>
                 <p>With over 19 years of experience, EFutures offers a diverse range of knowledge that you can trust, on what’s best for your needs and what’s not. Use our in-depth expertise to your advantage.</p>
             </div>
-            <div class="col-lg SOFTWARE_DEVELOPMENT">
+            <div class="col-lg SOFTWARE_DEVELOPMENT" id="js--wp--6">
                 <img src="image/success.png" class="mb-2 pb-2" alt="SOFTWARE DEVELOPMENT" style="width: 15%;padding-right: auto;padding-left: auto">
                 <span class="mb-1 " style="display: block">Working with the best and the brightest.</span>
                 <h5>DEDICATED DEVELOPMENT TEAM</h5>
@@ -92,7 +95,7 @@
 <!--ABOUT softknoweage-->
 <section class="pt-5  pb-5 about" style="background-color: rgba(179,179,179,0.24);">
     <div class="row ">
-        <div class="col SOFTWARE_DEVELOPMENT ">
+        <div class="col SOFTWARE_DEVELOPMENT" id="js--wp--7">
             <h1>ABOUT SOFTKNOWAGE</h1>
             <p>We specialize in the development of ERP solutions for manufacturing organizations and custom software applications. Specifically, our company carries out custom programming, database design, and client-server and internet/intranet software application development. 
 The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project teams that apply innovative methods for software development through adaptation of the best methodologies, approaches, and thinking available in the industry. We are committed to fundamental change in how we develop software: to transform our efforts from employing traditional waterfall and information engineering oriented approaches to employing innovative new approaches that include (but are not limited to) lightweight or agile methods, extreme project management, and extreme programming. These approaches are characterized by small teams, short iterative delivery cycles, simple project planning and system design methods, test driven software development, continuous improvement of system design, continuous integration of incremental results, and a sustainable pace of work effort by people in project teams.</p>
@@ -101,7 +104,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
     </div>
     <div class="row mt-4 pt-4">
         <div class="col-xl ">
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--8">
                 <div class="right_align" id="first-order">
                     <h5 class="font-weight-bold">RECRUITING THE BEST</h5>
                     <div>
@@ -116,7 +119,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                     </div>
                 </div>
             </div>
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--9">
                 <div class="right_align" id="first-order">
                     <h5 class="font-weight-bold">VERSATILE PROFICIENCY</h5>
                     <div>
@@ -131,7 +134,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                     </div>
                 </div>
             </div>
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--10">
                 <div class="right_align" id="first-order">
                     <h5 class="font-weight-bold">10 YEARS EXPERIENCE</h5>
                     <div>
@@ -147,27 +150,27 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                 </div>
             </div>
         </div>
-        <div class="col-xl">
+        <div class="col-xl" id="js--wp--11">
             <div class="d-flex justify-content-center">
                 <img src="image/i-phone.jpg" alt="" class="img-fluid">
             </div>
         </div>
         <div class="col-xl align-middle">
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--12">
                 <img src="image/icon/data-warehouse.svg" class="mr-3 mt-1 i-size" alt="heart">
                 <div class="left_align">
                     <h5 class="font-weight-bold">CAPACITY FOCUSSED</h5>
                     <p class="line-height-change">10% of the Staff will always be available to take on new work.</p>
                 </div>
             </div>
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--13">
                 <img src="image/icon/quality-control.svg" class="mr-3 mt-1 i-size" alt="many">
                 <div class="left_align" >
                     <h5 class="font-weight-bold">STRICT QUALITY CONTROL</h5>
                     <p class="line-height-change">Strictly adhere to internal processes and quality guidelines.</p>
                 </div>
             </div>
-            <div class="d-flex mb-4 pb-3">
+            <div class="d-flex mb-4 pb-3" id="js--wp--14">
                 <img src="image/icon/staff.svg" class="mr-3 mt-1 i-size" alt="many">
                 <div class="left_align">
                     <h5 class="font-weight-bold">LOW STAFF TURNOVER</h5>
@@ -181,7 +184,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 <section style="background-color: rgba(179,179,179,0.24);">
     <div class="test-body counter-section " style="padding-bottom: 20px !important;">
         <div class="row text-center pl-0 pr-0 ml-0 mr-0" style="max-width: 100%">
-            <div class="col-md-4 counter-box mt-4" style="background-color:#706fd3">
+            <div class="col-md-4 counter-box mt-4" style="background-color:#706fd3" id="js--wp--15">
                 <div class="icon-box"><i class="fas fa-briefcase"></i></div>
 <!--                <div class="d-inline">-->
                     <div class="d-inline" style="font-size: 50px">+</div>
@@ -189,13 +192,13 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 <!--                </div>-->
                 <p>PROJECTS COMPLETED</p>
             </div>
-            <div class="col-md-4 counter-box mt-4" style="background-color: #227093">
+            <div class="col-md-4 counter-box mt-4" style="background-color: #227093" id="js--wp--16">
                 <div class="icon-box "><i class="fas fa-user"></i></i></div>
                     <div class="d-inline" style="font-size: 50px">+</div>
                     <p class="d-inline counter">590</p>
                 <p>USERS CONNECTED</p>
             </div>
-            <div class="col-md-4 counter-box mt-4" style="background-color: #00ffd7">
+            <div class="col-md-4 counter-box mt-4" style="background-color: #00ffd7" id="js--wp--17">
                 <div class="icon-box "><i class="fas fa-trophy"></i></div>
                     <div class="d-inline" style="font-size: 50px">+</div>
                     <p class="d-inline counter">100</p>
@@ -205,14 +208,14 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
     </div>
 </section>
 <!--LATEST NEWS-->
-<section class="container-fluid pb-4" style="background-color: rgba(195,195,195,0.53);padding-top: 30px">
+<section class="container-fluid pb-4" style="background-color: rgba(195,195,195,0.53);padding-top: 30px" id="js--wp--18">
     <h1 class="text-center">LATEST NEWS</h1>
     <h1 class="liner-line"></h1>
 </section>
 <!--Card title-->
 <section class="pt-4" style="background-color: rgba(179,179,179,0.24);">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-        <div class="col mb-4">
+        <div class="col mb-4" id="js--wp--19">
             <div class="card">
                 <img src="image/news/image1.jpg" class="card-img-top" alt="...">
                 <div class="card-body" style="background-color: rgba(118,118,118,0.56)">
@@ -222,7 +225,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                 </div>
             </div>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="js--wp--20">
             <div class="card">
                 <img src="image/news/image2.jpg" class="card-img-top" alt="...">
                 <div class="card-body" style="background-color: rgba(118,118,118,0.56)">
@@ -232,7 +235,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                 </div>
             </div>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="js--wp--21">
             <div class="card">
                 <img src="image/news/image3.jpg" class="card-img-top" alt="...">
                 <div class="card-body" style="background-color: rgba(118,118,118,0.56)">
@@ -242,7 +245,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
                 </div>
             </div>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="js--wp--22">
             <div class="card">
                 <img src="image/news/image4.jpg" class="card-img-top" alt="...">
                 <div class="card-body" style="background-color: rgba(118,118,118,0.56)">
@@ -477,8 +480,7 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="vendors/js/jquery.counterup.min.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
+
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 <script src="https://kit.fontawesome.com/d8d7ffc13b.js" crossorigin="anonymous"></script>
@@ -488,6 +490,8 @@ The mission of Softknowedge Business Solutions (Pvt) Ltd is to deploy project te
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="vendors/js/jquery.counterup.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

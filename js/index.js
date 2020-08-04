@@ -81,25 +81,123 @@ window.addEventListener('scroll', function() {
 $(document).ready(function(){
     $('#js--wp--1').waypoint(function(direction) {
 
-        $('#js--wp--1').addClass('animate__backInLeft animate__slow');
+        $('#js--wp--1').addClass('animate__animated animate__rubberBand');
     },
     {
-        offset: '800px'
+        offset: '320px'
     });
 
     $('#js--wp--2').waypoint(function(direction) {
 
-        $('#js--wp--2').addClass('animate__backInLeft animate__slow');
+        $('#js--wp--2').addClass('animate__animated animate__backInLeft animate__slow');
     },
     {
-        offset: '800px'
+        offset: '600px'
     });
 
     $('#js--wp--3').waypoint(function(direction) {
 
-        $('#js--wp--3').addClass('animate__backInRight animate__slow');
+        $('#js--wp--3').addClass('animate__animated animate__backInRight animate__slow');
     },
     {
-        offset: '800px'
+        offset: '600px'
+    });
+    $('#js--wp--4').waypoint(function(direction) {
+
+        $('#js--wp--4').addClass('animate__animated animate__backInLeft animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--5').waypoint(function(direction) {
+
+        $('#js--wp--5').addClass('animate__animated animate__backInDown animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--6').waypoint(function(direction) {
+
+        $('#js--wp--6').addClass('animate__animated animate__backInRight animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--7').waypoint(function(direction) {
+
+        $('#js--wp--7').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--8').waypoint(function(direction) {
+
+        $('#js--wp--8').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--9').waypoint(function(direction) {
+
+        $('#js--wp--9').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--10').waypoint(function(direction) {
+
+        $('#js--wp--10').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--11').waypoint(function(direction) {
+
+        $('#js--wp--11').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--12').waypoint(function(direction) {
+
+        $('#js--wp--12').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--13').waypoint(function(direction) {
+
+        $('#js--wp--13').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--14').waypoint(function(direction) {
+
+        $('#js--wp--14').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--15').waypoint(function(direction) {
+
+        $('#js--wp--15').addClass('animate__animated animate__heartBeat animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--16').waypoint(function(direction) {
+
+        $('#js--wp--16').addClass('animate__animated animate__bounceInUp animate__slow');
+    },
+    {
+        offset: '600px'
+    });
+    $('#js--wp--17').waypoint(function(direction) {
+
+        $('#js--wp--17').addClass('animate__animated animate__bounceInRight animate__slow');
+    },
+    {
+        offset: '600px'
     });
 });
